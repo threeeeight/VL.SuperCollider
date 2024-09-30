@@ -1,30 +1,46 @@
-# VL.NewLibrary.Template
+# VL.SuperCollider
 
-- [ ] A clear and concise description of what this package is and does, also what problem it solves.
-- [ ] In case this is a wrapper, links to original code and which version of it is used
-- [ ] In case this is for a device/protocol, links to the device/protocol-specs
-- [ ] Required dependencies/drivers to download and install in the getting started section below
-- [ ] If available, links to documentation (other than helppatches), tutorial videos, blog posts, ...
-- [ ] Note that you can also include screenshots!
-- [ ] Mention any limitations
+Library to execute basic SuperCollider tasks in vvvv.
+Basically a wrapper around *sclang* that generates simple commands to control the SuperCollider audio server.
 
-For use with vvvv, the visual live-programming environment for .NET: http://visualprogramming.net
+Warning: Currently in development! Don't expect any gentle waltz yet.
 
-## Getting started
-- Install as [described here](https://thegraybook.vvvv.org/reference/hde/managing-nugets.html) via commandline:
-
-    `nuget install VL.NewLibrary.Template -pre`
-
-- Usage examples and more information are included in the pack and can be found via the [Help Browser](https://thegraybook.vvvv.org/reference/hde/findinghelp.html)
-
-## Contributing
-- Report issues on [the vvvv forum](https://discourse.vvvv.org/c/vvvv-gamma/28)
-- For custom development requests, please [get in touch](mailto:devvvvs@vvvv.org)
-- When making a pull-request, please make sure to read the general [guidelines on contributing to vvvv libraries](https://thegraybook.vvvv.org/reference/extending/contributing.html)
+Built upon [SuperCollider](https://vvvv.org) and [VL.SCSynth](https://github.com/cnisidis/VL.SCSynth).
 
 ## Credits
-Links to libraries this is based on
+In collaboration with [Constantine Nisidis](https://www.nisidis.com/).
 
-## Sponsoring
-Development of this library was partially sponsored by:  
-* 
+## Useful Ressources
+
+### VL
+
+Detect if a node is connected downstream
+https://discourse.vvvv.org/t/detect-if-a-node-is-connected-downstream/20878
+
+About disposing
+https://discourse.vvvv.org/t/dispose-questions/21110
+
+Starting the server
+https://discourse.vvvv.org/t/start-supercollider-server-in-background/20532/4
+
+### SuperCollider
+
+Side by side comparison of direction communication vs. sclang
+https://doc.sccode.org/Guides/NodeMessaging.html
+
+OSC port for ingoing and outgoing messages
+https://scsynth.org/t/reply-port-of-asychronous-commands/6494/2
+
+Starting the server from VL
+https://scsynth.org/t/start-sc-server-in-c/5803
+
+Sending raw OSC commands to create Synths
+https://scsynth.org/t/how-to-send-raw-osc-to-create-a-simple-sound/7166/6
+
+Parsing SynthDef as binary format
+https://scsynth.org/t/parse-synthdef-for-transmission-to-server/6497/6
+
+### Others
+
+Supriya SuperCollider implementation in Python
+https://github.com/josiah-wolf-oberholtzer/supriya
