@@ -14,33 +14,33 @@ In collaboration with [Constantine Nisidis](https://www.nisidis.com/).
 
 ### VL
 
-Detect if a node is connected downstream<br />>
+Detect if a node is connected downstream<br />
 https://discourse.vvvv.org/t/detect-if-a-node-is-connected-downstream/20878
 
-About disposing
-https://discourse.vvvv.org/t/dispose-questions/21110<br />>
+About disposing<br />
+https://discourse.vvvv.org/t/dispose-questions/21110
 
-Starting the server<br />>
+Starting the server<br />
 https://discourse.vvvv.org/t/start-supercollider-server-in-background/20532/4
 
 ### SuperCollider
 
-Side by side comparison of direction communication vs. sclang<br />>
+Side by side comparison of direction communication vs. sclang<br />
 https://doc.sccode.org/Guides/NodeMessaging.html
 
-OSC port for ingoing and outgoing messages<br />>
+OSC port for ingoing and outgoing messages<br />
 https://scsynth.org/t/reply-port-of-asychronous-commands/6494/2
 
-Starting the server from VL<br />>
+Starting the server from VL<br />
 https://scsynth.org/t/start-sc-server-in-c/5803
 
-Sending raw OSC commands to create Synths<br />>
+Sending raw OSC commands to create Synths<br />
 https://scsynth.org/t/how-to-send-raw-osc-to-create-a-simple-sound/7166/6
 
-Parsing SynthDef as binary format<br />>
+Parsing SynthDef as binary format<br />
 https://scsynth.org/t/parse-synthdef-for-transmission-to-server/6497/6
 
 ### Others
 
-Supriya SuperCollider implementation in Python<br />>
+Supriya SuperCollider implementation in Python<br />
 https://github.com/josiah-wolf-oberholtzer/supriya
