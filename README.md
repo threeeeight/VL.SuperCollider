@@ -3,7 +3,7 @@
 Library to execute basic SuperCollider tasks in vvvv.
 Basically a wrapper around *sclang* that generates simple commands to control the SuperCollider audio server.
 
-Warning: Currently in development! Don't expect any gentle waltz yet.
+Warning: **Currently in development!** Don't expect any gentle waltz yet.
 
 Built upon [SuperCollider](https://supercollider.github.io/) and [VL.SCSynth](https://github.com/cnisidis/VL.SCSynth).
 
