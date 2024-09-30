@@ -1,0 +1,1 @@
+SynthDef.new(\testtest, {arg freq = 1500, out = 0, amp = 0.3;var env, sig;sig = SinOsc.ar(freq.lag(0.05)!2);sig = sig * amp;Out.ar(out, sig);}).writeDefFile("D:/vl-libs/VL.SuperCollider/synthdefs/");0.exit;

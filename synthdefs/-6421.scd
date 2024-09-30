@@ -1,0 +1,1 @@
+SynthDef.new(\yolo, {arg freq = 2006, out = 0, amp = 0.3;var env, sig;env = Env.perc().ar(Done.freeSelf);sig = SinOsc.ar(freq!2);sig = sig * env * amp;Out.ar(out, sig);}).writeDefFile("C:/vl-libs/VL.SCLang/synthdefs/");0.exit;
